@@ -1,0 +1,192 @@
+*{
+    font-family: Arial;
+}
+
+body {
+    margin: 0px;
+    background: black;
+}
+
+.header {
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+ul {
+    color: #e3b062;
+}
+
+a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navBar {
+    width: 300px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.banner {
+    background-image: url(assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+}
+
+.banner .container p {
+    font-size: 36px;
+    color: white;
+    width: 280px;
+}
+
+.social {
+    background-color:#e5e5e5;
+    display: flex;
+}
+
+.social .container {
+    justify-content: center;
+}
+.box img {
+    width: 100px;
+}
+
+.social .container .boxes {
+    display: flex;
+    justify-content:space-between;
+}
+
+.box {
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.box p {
+    text-align:center;
+    margin: 15px;
+    margin: left;
+    margin: right;
+
+}
+
+.footer {
+    height:60px;
+    width: 100%;
+    background-color:rgb(34, 34, 83);
+}
+
+.footer .container {
+    color:#e5e5e5;
+}
+
+.footer .container .version {
+    display: flex;
+    font-size:12px;
+    font-weight: 800;
+    color:bisque;
+}
+
+.card {
+    width: 30%;
+    background-color:rgb(86, 82, 126);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+}
+
+.card h2{
+    margin: 0;
+    font-size: 30px;
+}
+
+.formulario {
+    display:flex;
+    height: 90%;
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color:rgb(139, 141, 195);
+}
+
+.formulario span {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.formulario input {
+    border: 2px solid rgb(44, 58, 138);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 50%;
+}
+
+.login .container {
+    display:flex;
+    justify-content:center;
+    height: 555px;
+}
+
+.botao {
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:0;
+    border-radius:5px;
+    font-weight:504;
+    font-size:19px;
+    color:rgb(48, 32, 94);
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 30px;
+    align-self:center;
+}
+
+
